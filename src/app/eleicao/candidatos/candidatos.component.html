@@ -1,3 +1,10 @@
-<p>
-  candidatos works!
-</p>
+<app-layout>
+   <div class="lista">
+    <app-card (result)="cardClick($event)" nome="Lucas" setor="TI" imagem="http://picsum.photos/150/150?random"></app-card>
+    <app-card nome="Matheus" setor="Recursos Humanos" imagem="http://picsum.photos/150/150?random"></app-card>
+    <app-card nome="Rogerio" setor="TI" imagem="http://picsum.photos/150/150?random"></app-card>
+    <app-card nome="Ana" setor="Suporte" imagem="http://picsum.photos/150/150?random"></app-card>
+    <app-card nome="Levi" setor="Propaganda" imagem="http://picsum.photos/150/150?random"></app-card>
+    <app-card nome="Tyler" setor="Ti" imagem="http://picsum.photos/150/150?random"></app-card>
+   </div>
+</app-layout>

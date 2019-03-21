@@ -11,4 +11,8 @@ export class CandidatosComponent implements OnInit {
 
   ngOnInit() {}
 
+  cardClick(valor){
+    alert('CLicou em:' +valor.nome)
+  }
+
 }
